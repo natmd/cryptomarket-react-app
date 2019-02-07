@@ -1,0 +1,44 @@
+/* Header component*/
+.cryptocurrency-market-header {
+  background-color: #4e5f67;
+  color: #FFF;
+  margin: 30px 0 50px;
+  padding: 20px 0;
+}
+
+/* Currencies cards list*/
+.cryptocurrency-market-list {
+  margin: 50px 0;
+}
+
+.cryptocurrency-market-list-item {
+    margin-bottom: 10px;
+}
+
+.cryptocurrency-market-list-item .card {
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.cryptocurrency-market-list-item .card:hover {
+    border: 1px solid #007bff;
+}
+
+.cryptocurrency-market-list-item .card .card-image {
+  height: 80px;
+}
+
+.cryptocurrency-market-list-item .card .card-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.cryptocurrency-market-list-item .card .card-button {
+  margin-top: 20px;
+}
+
+.cryptocurrency-market-profit-table .table {
+  width: 0;
+  margin-right: 5px;
+}

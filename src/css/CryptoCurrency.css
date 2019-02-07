@@ -1,0 +1,56 @@
+.cryptocurrency .banner {
+  margin-bottom: 50px;
+}
+
+.cryptocurrency .banner .banner-image {
+  height: 250px;
+  width: 100%;
+}
+
+.cryptocurrency .banner .banner-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.cryptocurrency .banner .banner-content {
+  margin-top: 10px;
+}
+
+.cryptocurrency .banner .banner-title img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .cryptocurrency .banner {
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .cryptocurrency .banner .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 350px;
+    width: 100%;
+  }
+
+  .cryptocurrency .banner .banner-content {
+    position: relative;
+    max-width: 400px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    padding: 15px;
+  }
+
+}
