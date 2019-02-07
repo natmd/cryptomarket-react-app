@@ -1,4 +1,6 @@
-##Cryptocurrency Market React App
+# cryptomarket-react-app
+
+## Cryptocurrency Market React App
 
 This App analyses and process an historical price list of cryptocurrencies provided by a currency exchange and clearly present this information to a customer.
 
@@ -12,17 +14,17 @@ I have also created some simple unit test cases to start with.
 Some comments are included in "//"" along the code to describe the functionality.
 
 
-##Running the app
+## Running the app
 
 In the project directory, you can run:
 
-### `yarn install`
+`yarn install`
 Install all packages required.
 
-### `yarn start`
+`yarn start`
 Starts the development server. The app will be available in [http://localhost:3000/](http://localhost:3000/)
 
-### `yarn test`
+`yarn test`
 Starts the test runner.
 
 Note: This app is only supported in Chrome and FF browsers.
